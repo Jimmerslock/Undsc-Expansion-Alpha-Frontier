@@ -1,0 +1,45 @@
+[
+	{
+		"name": "Oort Orda",
+		"leaderName": "Tansu Apak-Minec",
+		"adjective": ["ORD"],
+		"startBias": ["Avoid [Coast]"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Merhaba Tansu, Kiithan of The Oort Orda. Born in deep space habitats inside the Oort cloud to a family of miners, you bore the hardships beset to you by corporate demands until you and your people could no more. Staging a rebellion and proclaiming yourself the Kiithan of the Oort. Using the wealth of asteroids to construct an incredibly primitive but cost effective colony ship. Landing on this alien world and for the first time seeing the beauty of an atmosphere.",
+		"startIntroPart2": "Tansu, this world is ours to wander with. Seeing the sights and unparelled from our cosmic habitats. Will we survive this alien lifestyle or will we perish?",
+
+		"declaringWar": "You supress the heartbeat of this kind planet and we will not stand and watch!",
+		"attacked": "Anguish is upon you, for eternity will the cosmos echo this.",
+		"defeated": "We return to the void...",
+		"introduction": "Merhaba, i am Kiithan Tansu. We come to see this wondrous world, not poison it. Hope you will do the same.",
+
+		"neutralHello": "The cosmos shall echo this encounter, how may i help you?",
+		"hateHello": "Misery befalls us yet you dare speak before the void?",
+
+		"tradeRequest": "Mutual exchange brings this world to peace, do you not agree?",
+
+		"outerColor": [229, 67, 108],
+		"innerColor": [93, 255, 213],
+		"favoredReligion": "Voidist",
+		"uniqueName": "Way of the Void",
+		"uniques": [
+			"[+50]% Unhappiness from [Population] [in all cities]",
+			"[-100]% Unhappiness from [Population] [in capital]",
+			"Receive triple Gold from Barbarian encampments and pillaging Cities",
+			"[+15]% [Production] [in capital]",
+			"[+15]% growth [in capital]",
+			//"[-15]% Culture cost of natural border growth [in capital]",
+			"[3] Unit Supply per [3] population [in capital]"
+		],
+		"cities": [
+			"Opik-Tyche"
+			"Eris"
+		],
+		"spyNames": [
+			"Jan"
+			"Armin"
+			"Ernst"
+		]
+	}
+]

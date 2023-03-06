@@ -1,0 +1,71 @@
+[
+	// Civvies
+	{
+		"name": "Mobile Habitat",
+		"unitType": "Civilian",
+		"uniqueTo": "Oort Orda",
+		"replaces": "Colonizer",
+		"cost": 106,
+		"movement": 3,
+		"uniques": [
+			"Founds a new city",
+			//"Normal vision when embarked",
+			//"Enables embarkation for land units"
+			//"[1] Movement point cost to disembark"
+			//"[1] Movement point cost to embark"
+			"Unbuildable",
+		],
+		"promotions": ["Ignore terrain cost"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mobile Habitat",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Coming from deep space, this mobile settlement is complete with all that is required for a colony."
+			}
+		]
+	},
+	{
+		"name": "City Carrier",
+		"unitType": "Hover Carrier",
+		"uniqueTo": "Oort Orda",
+		"replaces": "Hovercarrier",
+		"requiredTech": "Stable Fission Power",
+		"movement": 3,
+		"strength": 32,
+		"rangedStrength": 32,
+		"hurryCostModifier": 20,
+		"range": 2,
+		"cost": 300,
+		"uniques": [
+			"Carrier",
+			"Hovercraft",
+			"Can carry [2] [Aerocraft] units",
+			"Armored",
+			"Normal vision when embarked",
+			"May attack when embarked",
+			"Defense bonus when embarked",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Limited to [4] per Civilization",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost", "Amphibious", "Mobile City"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/City Carrier",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A mobile carrier, with mining drills, pumps, arnaments and extremely crammed habitation, althought the people of the Oort Orda are used to that."
+			}
+		]
+	},
+]

@@ -1,0 +1,48 @@
+[
+	{
+		"name": "Bore Hole",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Snow",
+			"Forest",
+			"Jungle",
+			"Mycelium",
+		],
+		"turnsToBuild": 6,
+		//"techRequired": "Xeno-Medicine",
+		"uniqueTo": "Oort Orda",
+		"uniques": [
+			"Unpillagable",
+			"Can be built outside your borders",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Gives a defensive bonus of [-15]%",
+			"Nullifies all other stats this tile provides",
+		],
+		//"shortcutKey": "O"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Bore Hole",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A crater of exploited resources, thankfully can be refilled quite easily."
+			}
+		]
+	},
+	{
+		"name": "Remove Bore Hole",
+		"turnsToBuild": 2,
+		"terrainsCanBeBuiltOn": ["Bore Hole"],
+		// Has no tile improvements as it can always be built
+		"uniques": ["Only available <for [Worker] units>", "Can be built outside your borders"],
+		//"shortcutKey": "X"
+	}
+]

@@ -1,0 +1,158 @@
+[
+	{
+		"name": "Mobile City",
+		"uniques": [
+			//"[+2 Gold, +2 Science, +1 Culture, -2 Happiness]"
+			//"Can carry [1] [Land] units",
+			//"Can carry [1] [Close Ranged Water] units",
+			//"Can carry [1] [Aerocraft] units",
+			//"Can carry [1] [Missile] units",
+			//"Can carry [1] [Satellite] units",
+			//"[+33]% Strength <when defending>",
+			"Gains access to special promotions available only to this unit",
+			"<starting from the [Colonization era]> [+50]% XP gained from combat",
+			//"Can build [Bore Hole] improvements on tiles"
+			//"Earn [33]% of the damage done to [All] units as [Science]",
+			//"Earn [33]% of killed [All] unit's [Cost] as [Science]",
+			//"Earn [33]% of the damage done to [All] units as [Culture]",
+			//"Earn [33]% of killed [All] unit's [Cost] as [Culture]",
+			//"Can instantly construct a [Bore Hole] improvement, This Unit gains [10] XP <for [3] movement>"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 125,
+        	"column": 0
+	},
+	{
+		"name": "Repair Beams",
+		"prerequisites": ["Mobile City"],
+		"uniques": [
+			"All adjacent units heal [+10] HP when healing",
+			"[+10] HP when healing"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 126,
+        	"column": 1
+	},
+	{
+		"name": "Support Networks",
+		"prerequisites": ["Repair Beams"],
+		"uniques": [
+			"Data Uplinked",
+			"[+5]% Strength bonus for [Military] units within [2] tiles",
+			"[+5]% Strength bonus for [Data Uplinked] units within [2] tiles",
+			"[+5]% Strength bonus for [Military] units within [2] tiles <after discovering [Mind-Machine Interface]>",
+			"[+5]% Strength bonus for [Military] units within [2] tiles <after discovering [Artificial Intelligence]>"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 126,
+        	"column": 2
+	},
+	{
+		"name": "Auto-Repair",
+		"prerequisites": ["Support Networks"],
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 126,
+        	"column": 3
+	},
+	{
+		"name": "Power I",
+		"prerequisites": ["Mobile City"],
+		"uniques": [
+			"[+1] Movement"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 127,
+        	"column": 1
+	},
+	{
+		"name": "Power II",
+		"prerequisites": ["Power I"],
+		"uniques": [
+			"Can move after attacking",
+			"[+1] Movement"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 127,
+        	"column": 2
+	},
+	{
+		"name": "Power III",
+		"prerequisites": ["Power II"],
+		"uniques": [
+			"[1] additional attacks per turn"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 127,
+        	"column": 3
+	},
+	{
+		"name": "Improved Sensors",
+		"prerequisites": ["Mobile City"],
+		"uniques": [
+			"[+1] Sight"
+			"Can see over obstacles"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 128,
+        	"column": 1
+	},
+	{
+		"name": "Targeting Systems",
+		"prerequisites": ["Improved Sensors"],
+		"uniques": [
+			"[+1] Range"
+			"Ranged attacks may be performed over obstacles"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 128,
+        	"column": 2
+	},
+	{
+		"name": "Siege Engine",
+		"prerequisites": ["Targeting Systems"],
+		"uniques": [
+			"[+1] Range"
+			"[+50]% Strength <vs cities> <when attacking>",
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 128,
+        	"column": 3
+	},
+	{
+		"name": "Strength I",
+		"prerequisites": ["Mobile City"],
+		"uniques": [
+			"[+15]% Strength"
+			"[+15]% Strength <before discovering [Next-Gen Armaments]>"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 125,
+        	"column": 1
+	},
+	{
+		"name": "Strength II",
+		"prerequisites": ["Strength I"],
+		"uniques": [
+			"[+15]% Strength"
+			"[+15]% Strength <before discovering [Next-Gen Armaments]>"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 125,
+        	"column": 2
+	},
+	{
+		"name": "Strength III",
+		"prerequisites": ["Strength II"],
+		"uniques": [
+			"[+15]% Strength"
+			"[+15]% Strength <before discovering [Next-Gen Armaments]>"
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 125,
+        	"column": 3
+	},
+]
+
