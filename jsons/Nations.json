@@ -29,7 +29,7 @@
 			"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			"[+15]% [Production] [in capital]",
 			"[+15]% growth [in capital]",
-			//"[-15]% Culture cost of natural border growth [in capital]",
+			"[-15]% Culture cost of natural border growth [in capital]",
 			"[3] Unit Supply per [3] population [in capital]"
 		],
 		"cities": [

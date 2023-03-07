@@ -82,7 +82,8 @@
 		"name": "Power III",
 		"prerequisites": ["Power II"],
 		"uniques": [
-			"[1] additional attacks per turn"
+			"[1] additional attacks per turn",
+			"[100]% chance to intercept air attacks"
 		],
 		"unitTypes": [ "Hover Carrier" ],
 		"row": 127,
@@ -153,6 +154,17 @@
 		"unitTypes": [ "Hover Carrier" ],
 		"row": 125,
         	"column": 3
+	},
+	{
+		"name": "Annexation",
+		"prerequisites": ["Targeting Systems", "Strength II", "Power II", "Support Networks"],
+		"uniques": [
+			 "Can instantly construct a [Annexation] improvement <once>"
+
+		],
+		"unitTypes": [ "Hover Carrier" ],
+		"row": 129,
+        	"column": 2
 	},
 ]
 
