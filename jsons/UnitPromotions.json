@@ -127,8 +127,9 @@
 		"name": "Strength I",
 		"prerequisites": ["Mobile City"],
 		"uniques": [
-			"[+15]% Strength"
-			"[+15]% Strength <before discovering [Next-Gen Armaments]>"
+			"[+10]% Strength"
+			"[+10]% Strength <after discovering [Next-Gen Armaments]>"
+			"[+10]% Strength <after discovering [Antimatter Harnessing]>"
 		],
 		"unitTypes": [ "Hover Carrier" ],
 		"row": 125,
@@ -138,8 +139,9 @@
 		"name": "Strength II",
 		"prerequisites": ["Strength I"],
 		"uniques": [
-			"[+15]% Strength"
-			"[+15]% Strength <before discovering [Next-Gen Armaments]>"
+			"[+10]% Strength"
+			"[+10]% Strength <after discovering [Next-Gen Armaments]>"
+			"[+10]% Strength <after discovering [Antimatter Harnessing]>"
 		],
 		"unitTypes": [ "Hover Carrier" ],
 		"row": 125,
@@ -149,8 +151,9 @@
 		"name": "Strength III",
 		"prerequisites": ["Strength II"],
 		"uniques": [
-			"[+15]% Strength"
-			"[+15]% Strength <before discovering [Next-Gen Armaments]>"
+			"[+10]% Strength"
+			"[+10]% Strength <after discovering [Next-Gen Armaments]>"
+			"[+10]% Strength <after discovering [Antimatter Harnessing]>"
 		],
 		"unitTypes": [ "Hover Carrier" ],
 		"row": 125,
