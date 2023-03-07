@@ -4,21 +4,19 @@
 		"replaces": "Robotics Assembly Plant",
 		"uniqueTo": "San XuHang",
 		"maintenance": 1,
-		"production": 2,
-		"specialistSlots": { "Engineer": 1 },
+		//"specialistSlots": { "Engineer": 1 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "production": 10 },
+		"percentStatBonus": { "production": 5, "food": 5 },
 		"requiredBuilding": "Prefab Printer",
 		"uniques": [
 			"[+1 Food] from every [Engineer]",
 			"[+1 Happiness] from [Luxury resource] tiles [in this city]",
 			"[+1 Food] from [Agri Farm] tiles [in this city]",
-			"[+10]% Production when constructing [All] buildings [in this city]"
 		],
 		"requiredTech": "Offworld Industries",
 		"civilopediaText": [
 			{
-				"text": "A more massive version of the Robotics Assembly Plant, and almost entirely automated."
+				"text": "Massive complexes of industry and agriculture without a human in sight, fulfilling any possible needs."
 			}
 		]
 	},
