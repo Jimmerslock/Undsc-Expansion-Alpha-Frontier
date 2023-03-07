@@ -1,6 +1,33 @@
 [
 	// Civvies
 	{
+		"name": "Great Agrotech",
+		"unitType": "Civilian",
+		"replaces": "Great Engineer",
+		"uniqueTo": "San XuHang",
+		"uniques": [
+			"Can speed up construction of a building",
+			"Can construct [Garden Spire]  <by consuming this unit>",
+			"[1] population [in this city] <after which this unit is consumed>",
+			"Great Person - [Production]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Agrotech",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Open-minded engineers, farmers and architects, these hasten urban projects with their unique ideas and approaches."
+			}
+		]
+	},
+	{
 		"name": "Mobile Habitat",
 		"unitType": "Civilian",
 		"uniqueTo": "Oort Orda",
@@ -65,33 +92,6 @@
 			},
 			{
 				"text": "A mobile carrier, with mining drills, pumps, arnaments and extremely crammed habitation, althought the people of the Oort Orda are used to that."
-			}
-		]
-	},
-	{
-		"name": "Great Agrotech",
-		"replaces": "Great Engineer",
-		"uniqueTo": "San XuHang",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can speed up construction of a building",
-			"Can construct [Garden Spire]",
-			"[1] population [in this city] <by consuming this unit>"
-			"Great Person - [Production]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Great Agrotech",
-				"imageSize": 64
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "Open-minded engineers, farmers and architects, these hasten urban projects with their unique ideas and approaches."
 			}
 		]
 	},

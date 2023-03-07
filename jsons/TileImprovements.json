@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Garden Spire",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 2,
+		"food": 2,
+		"happiness": 2,
+		"uniques": [
+			"Great Improvement",
+			"Urban Improvement",
+			"[+1 Production] <after discovering [Offworld Industries]>",
+			"[+1 Production] <after discovering [Crust Fracking]>",
+			"[+1 Food] <after discovering [Xeno-Grafting]>",
+			"[+1 Food] <after discovering [Genetics]>",
+			"Tile provides yield without assigned population"
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+5 Production,  +5 Food]"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Garden Spire",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Sprawling to the heavens, forests and jungles of vegetation both native and alien. From earth to here and from foods to beauty."
+			}
+		]
+	},
+]
