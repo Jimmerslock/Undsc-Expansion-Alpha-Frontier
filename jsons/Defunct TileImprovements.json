@@ -1,5 +1,19 @@
 [
 	{
+		"name": "Annexation",
+		"terrainsCanBeBuiltOn": ["Land"],
+		//"turnsToBuild": 6,
+		//"techRequired": "Xeno-Medicine",
+		//"uniqueTo": "Oort Orda",
+		"unbuildable": true,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Can be built just outside your borders",
+        	"Constructing it will take over the tiles around it and assign them to your closest city",
+        	"Removes removable features when built"
+		],
+	},
+	{
 		"name": "Bore Hole",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
@@ -14,8 +28,10 @@
 		],
 		"turnsToBuild": 6,
 		//"techRequired": "Xeno-Medicine",
-		"uniqueTo": "Oort Orda",
+		//"uniqueTo": "Oort Orda",
 		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Great Improvement",
 			"Unpillagable",
 			"Can be built outside your borders",
 			"Does not need removal of [Forest]",

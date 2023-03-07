@@ -45,13 +45,12 @@
 		"uniques": [
 			"Carrier",
 			"Hovercraft",
-			"Can carry [1] [Aerocraft] units",
+			"Can carry [2] [Aerocraft] units",
 			"Can carry [2] [Missile] units",
 			"Can carry [1] [Satellite] units",
 			"Normal vision when embarked",
 			"Defense bonus when embarked",
 			"No defensive terrain bonus",
-			"Ignores Zone of Control",
 			"Limited to [4] per Civilization",
 			"Never appears as a Barbarian unit"
 		],

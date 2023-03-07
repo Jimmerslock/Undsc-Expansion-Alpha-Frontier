@@ -10,6 +10,7 @@
 			//"Can carry [1] [Satellite] units",
 			//"[+33]% Strength <when defending>",
 			"Gains access to special promotions available only to this unit",
+			"Ignores Zone of Control",
 			"<starting from the [Colonization era]> [+50]% XP gained from combat",
 			//"Can build [Bore Hole] improvements on tiles"
 			//"Earn [33]% of the damage done to [All] units as [Science]",
@@ -154,17 +155,6 @@
 		"unitTypes": [ "Hover Carrier" ],
 		"row": 125,
         	"column": 3
-	},
-	{
-		"name": "Annexation",
-		"prerequisites": ["Targeting Systems", "Strength II", "Power II", "Support Networks"],
-		"uniques": [
-			 "Can instantly construct a [Annexation] improvement <once>"
-
-		],
-		"unitTypes": [ "Hover Carrier" ],
-		"row": 129,
-        	"column": 2
 	},
 ]
 
