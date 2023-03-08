@@ -10,7 +10,6 @@
 		"greatPersonPoints": { "Great Engineer": 1 },
 		"requiredBuilding": "Prefab Printer",
 		"uniques": [
-			"[+1 Food] from every [Engineer]",
 			"[+1 Happiness] from [Luxury resource] tiles [in this city]",
 			"[+1 Food] from [Agri Farm] tiles [in this city]",
 			"[+1 Food] from [Aquaculture] tiles [in this city]"

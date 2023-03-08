@@ -67,14 +67,15 @@
 
 		"tradeRequest": "I hope you can see this offer as most fair.",
 
-		"outerColor": [76, 148, 208],
-		"innerColor": [148, 208, 76],
+		"outerColor": [57, 111, 156],
+		"innerColor": [174, 219, 120],
 		"favoredReligion": "Luddism",
 		"uniqueName": "Automated Luxury",
 		"uniques": [
 			"Double quantity of [Vitamass] produced",
 			"[+1 Culture] from [Agri Farm] tiles [in all cities]",
 			"[+1 Culture] from [Aquaculture] tiles [in all cities]",
+			"[+1 Food] from every [Engineer] <after discovering [Offworld Industries]>",
 			"[+15]% Strength <in [Friendly Land] tiles>",
 			"[-25]% Food consumption by specialists [in all cities]"
 			"[-25]% Production when constructing [Military] units [in all cities]",
