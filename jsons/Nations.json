@@ -74,9 +74,9 @@
 		"uniques": [
 			"Double quantity of [Vitamass] produced",
 			"[+1 Culture] from [Agri Farm] tiles [in all cities]",
-			"[+1 Culture] from all [Production] buildings",
+			"[+1 Culture] from [Aquaculture] tiles [in all cities]",
 			"[+15]% Strength <in [Friendly Land] tiles>",
-			"[-50]% Food consumption by specialists [in all cities]"
+			"[-25]% Food consumption by specialists [in all cities]"
 			"[-25]% Production when constructing [Military] units [in all cities]",
 		],
 		"cities": [
