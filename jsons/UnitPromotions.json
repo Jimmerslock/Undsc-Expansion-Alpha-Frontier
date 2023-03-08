@@ -1,5 +1,15 @@
 [
 	{
+		"name": "We Are Amidst",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"Damage is ignored when determining unit Strength",
+			"May withdraw before melee ([75]%)"
+		],
+		"row": 130,
+        "column": 0
+	},
+	{
 		"name": "Mobile City",
 		"uniques": [
 			//"[+2 Gold, +2 Science, +1 Culture, -2 Happiness]"
@@ -158,6 +168,6 @@
 		"unitTypes": [ "Hover Carrier" ],
 		"row": 125,
         	"column": 3
-	},
+	}
 ]
 

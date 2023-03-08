@@ -7,7 +7,7 @@
 		"uniqueTo": "San XuHang",
 		"uniques": [
 			"Can speed up construction of a building",
-			"Can instantly construct a [Garden Spire] <once>",
+			"Can instantly construct a [Garden Spire] improvement <by consuming this unit>",
 			"Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable"
@@ -23,6 +23,73 @@
 			},
 			{
 				"text": "Open-minded engineers, farmers and architects, these hasten urban projects with their unique ideas and approaches."
+			}
+		]
+	},
+	{
+		"name": "Crewmate Team",
+		"replaces": "Frontier Militia",
+		"uniqueTo": "MIRA Corp",
+		"unitType": "Stealth Infantry",
+		"movement": 2,
+		"strength": 6,
+		"cost": 25,
+		"upgradesTo": "Colony Rifleman",
+		//"obsoleteTech": "Next-Gen Armaments",
+		"uniques": [
+			"Damage is ignored when determining unit Strength",
+			"May enter foreign tiles without open borders",
+			"[+500]% Strength <with [10]% chance>",
+			"May upgrade to [Colony Rifleman] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Crewmate Team",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A band of researchers, medics and engineers formed into an survey expedition and ready to protect their cities against any unknown threats."
+			}
+		]
+	},
+	{
+		"name": "Low-G Airship",
+		"unitType": "Helicopter",
+		"replaces": "Rover Explorer",
+		"uniqueTo": "MIRA Corp",
+		"range": 1,
+		"interceptRange": 1,
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 6,
+		"cost": 38,
+		"requiredTech": "Engineering",
+		"uniques": [
+			"[+1] Sight"
+			"Can carry [1] [Infantry] units",
+			"Can carry [1] [Civilian] units",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can see over obstacles",
+			"Can move after attacking",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Low-G Airship",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A MIRA Corp feat of engineering, this Airship designed for Low-G enviroments is commonly employed by the company to survey and chart new planets."
 			}
 		]
 	},

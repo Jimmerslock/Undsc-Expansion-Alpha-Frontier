@@ -2,7 +2,7 @@
 	//Oort Orda: Carrier-cities horde
 	//San XuHang: Auto-mated farming(Doesn't require pops), replace great engineer that builds a great improvement Garden Spire which provides 3 Production, 3 Food and 3 Happiness which also improves crops
 	//Pulau Ujong Assosiation: Bonuses from trade routes and trade routes count with other nations and an unique unit which can only build railways and can enter foreign territory.
-	//Skeld Taskmasters: Among us Civilization
+	//Mira: Among us Civilization, Among us promotion that makes all infantry invisible and an among us(replaces frontier militia) unit which has a 10% to insta kill any unit and an Early game helicopter unit(Airship-Engineering tech)
 	{
 		"name": "Oort Orda",
 		"leaderName": "Tansu Apak-Minec",
@@ -77,8 +77,8 @@
 			"[+1 Culture] from [Aquaculture] tiles [in all cities]",
 			"[+1 Food] from every [Engineer] <after discovering [Offworld Industries]>",
 			"[+15]% Strength <in [Friendly Land] tiles>",
-			"[-25]% Food consumption by specialists [in all cities]"
-			"[-25]% Production when constructing [Military] units [in all cities]",
+			"[-25]% Food consumption by specialists [in all cities]",
+			"[-25]% Production when constructing [Military] units [in all cities]"
 		],
 		"cities": [
 			"Khong Lo"
@@ -115,6 +115,48 @@
 			"Bui"
 			"Phi"
 			"Vu"
+		]
+	}
+		{
+		"name": "MIRA Corp",
+		"leaderName": "The Taskmaster",
+		"adjective": ["MIRA"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Greetings Taskmaster, you have come a far way from home. Albeit your origins are mostly unknown, you have brought MIRA Corp to the stars and beyond surveying and cataloguing many anomalous materials with help of your noble crew.",
+		"startIntroPart2": "Albeit many threats lurk in the shadows, you have made it to this alien planet in search to catalogue much more. Will you succeed at your tasks or be killed?",
+
+		"declaringWar": "We have called a meeting and have concluded that you must be released from this world.",
+		"attacked": "You are acting rather preposterous as of recent.",
+		"defeated": "We were divided and killed each other...",
+		"introduction": "This is Mira Corp, surveying new worlds with wondrous and cheap technologies! Do not stand in our way.",
+
+		"neutralHello": "So how many tasks do you have left?",
+		"hateHello": "Your actions will have grand consequences!",
+
+		"tradeRequest": "We may help each other to not get killed, yes?",
+
+		"outerColor": [253, 226, 75],
+		"innerColor": [215, 84, 37],
+		"favoredReligion": "Cosmic Clergy",
+		"uniqueName": "Corporate Surveyal",
+		"uniques": [
+			"[+1 Science, +1 Gold] from [Organic] tiles [in all cities]",
+			"100 Gold for discovering a Natural Wonder (bonus enhanced to 500 Gold if first to discover it)",
+			"[{Infantry}] units gain the [We Are Amidst] promotion"
+		],
+		"cities": [
+			"MIRA HQ"
+			"Polus"
+			"Airstrip"
+			"Dockbay"
+			"Thermus"
+		],
+		"spyNames": [
+			"Impostor"
+			"Sussy"
+			"Damned"
 		]
 	}
 ]
