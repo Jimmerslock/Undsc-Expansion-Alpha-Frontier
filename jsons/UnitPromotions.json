@@ -3,8 +3,7 @@
 		"name": "We Are Amidst",
 		"uniques": [
 			"Invisible to non-adjacent units",
-			"Damage is ignored when determining unit Strength",
-			"May withdraw before melee ([75]%)"
+			"Stealth Infantry"
 		],
 		"row": 130,
         "column": 0
