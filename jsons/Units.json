@@ -37,7 +37,7 @@
 		"upgradesTo": "Colony Rifleman",
 		//"obsoleteTech": "Next-Gen Armaments",
 		"uniques": [
-			"City-State territory always counts as friendly territory",
+			//"City-State territory always counts as friendly territory", //only works on nation uniques iirc
 			"May enter foreign tiles without open borders",
 			"[+500]% Strength <with [10]% chance>",
 			"May upgrade to [Colony Rifleman] through ruins-like effects",
