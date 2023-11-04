@@ -12,9 +12,9 @@
 			"[+1 Production] <after discovering [Crust Fracking]>",
 			"[+1 Food] <after discovering [Xeno-Grafting]>",
 			"[+1 Food] <after discovering [Genetics]>",
-			"Tile provides yield without assigned population"
+			"Tile provides yield without assigned population",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+5 Production,  +5 Food]"
+			"Pillaging this improvement yields approximately [+5 Production, +5 Food]"
 		],
 		"civilopediaText": [
 			{
