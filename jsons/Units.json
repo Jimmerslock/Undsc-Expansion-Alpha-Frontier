@@ -78,7 +78,7 @@
 			"Can carry [1] [Civilian] units",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"[-50]% Strength <vs [Air] units>",
-			"May withdraw before melee ([50]%)",
+			"Withdraws before melee combat <with [50]% chance>",
 			"Can see over obstacles",
 			"Never appears as a Barbarian unit"
 		],
