@@ -146,7 +146,7 @@
 			"Can carry [2] [Missile] units",
 			"Can carry [1] [Satellite] units",
 			"[+1] Sight <when [Embarked]>",
-			"Defense bonus when embarked",
+			"[+100]% Strength <when defending> <when [Embarked]>",
 			"No defensive terrain bonus",
 			"Limited to [4] per Civilization",
 			"Never appears as a Barbarian unit"

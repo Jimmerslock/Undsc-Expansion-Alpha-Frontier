@@ -30,19 +30,19 @@
 		"uniques": [
 			"[+50]% Unhappiness from [Population] [in all cities]",
 			"[-100]% Unhappiness from [Population] [in capital]",
-			"Receive triple Gold from Barbarian encampments and pillaging Cities",
+			"Receive [+200]% Gold from Barbarian encampments and pillaging Cities",
 			"[+15]% [Production] [in capital]",
 			"[+15]% growth [in capital]",
 			"[-15]% Culture cost of natural border growth [in capital]",
 			"[3] Unit Supply per [3] population [in capital]"
 		],
 		"cities": [
-			"Opik-Tyche"
+			"Opik-Tyche",
 			"Eris"
 		],
 		"spyNames": [
-			"Jan"
-			"Armin"
+			"Jan",
+			"Armin",
 			"Ernst"
 		]
 	}
@@ -72,48 +72,48 @@
 		"favoredReligion": "Luddism",
 		"uniqueName": "Automated Luxury",
 		"uniques": [
-			"Double quantity of [Vitamass] produced",
+			"[100]% [Vitamass] resource production",
 			"[+1 Culture] from [Agri Farm] tiles [in all cities]",
 			"[+1 Culture] from [Aquaculture] tiles [in all cities]",
 			"[+1 Food] from every [Engineer] <after discovering [Offworld Industries]>",
 			"[+15]% Strength <in [Friendly Land] tiles>",
-			"[-25]% Food consumption by specialists [in all cities]",
+			"[-25]% Food consumption by [Specialists] [in all cities]",
 			"[-25]% Production when constructing [Military] units [in all cities]"
 		],
 		"cities": [
-			"Khong Lo"
-			"Than Nong"
-			"Long Quan"
-			"Au Co"
-			"Nghe"
-			"Lan"
-			"Quy"
-			"Phung"
-			"Thanh hoang"
-			"Buon Ma Doc"
-			"Khmausei"
-			"Bien Ranh"
-			"Uong Trang"
-			"Rach Cham"
-			"My Gia"
-			"Ban Chasim"
-			"Rach Tri"
-			"Kon Tum"
-			"Dong Mau"
-			"Ban Dulak"
+			"Khong Lo",
+			"Than Nong",
+			"Long Quan",
+			"Au Co",
+			"Nghe",
+			"Lan",
+			"Quy",
+			"Phung",
+			"Thanh hoang",
+			"Buon Ma Doc",
+			"Khmausei",
+			"Bien Ranh",
+			"Uong Trang",
+			"Rach Cham",
+			"My Gia",
+			"Ban Chasim",
+			"Rach Tri",
+			"Kon Tum",
+			"Dong Mau",
+			"Ban Dulak",
 			"Cam An"
 		],
 		"spyNames": [
-			"Mai"
-			"Quang"
-			"Hoang"
-			"Thai"
-			"Huynh"
-			"Dang"
-			"Duong"
-			"Diep"
-			"Bui"
-			"Phi"
+			"Mai",
+			"Quang",
+			"Hoang",
+			"Thai",
+			"Huynh",
+			"Dang",
+			"Duong",
+			"Diep",
+			"Bui",
+			"Phi",
 			"Vu"
 		]
 	}
@@ -144,18 +144,18 @@
 		"uniques": [
 			"[+1 Science, +1 Gold] from [Organic] tiles [in all cities]",
 			"[+100 Gold] for discovering a Natural Wonder (bonus enhanced to [+500 Gold] if first to discover it)",
-			"[{Infantry}] units gain the [We Are Amidst] promotion"
+			"[Infantry] units gain the [We Are Amidst] promotion"
 		],
 		"cities": [
-			"MIRA HQ"
-			"Polus"
-			"Airstrip"
-			"Dockbay"
+			"MIRA HQ",
+			"Polus",
+			"Airstrip",
+			"Dockbay",
 			"Thermus"
 		],
 		"spyNames": [
-			"Impostor"
-			"Sussy"
+			"Impostor",
+			"Sussy",
 			"Damned"
 		]
 	}
